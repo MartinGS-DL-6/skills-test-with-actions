@@ -41,4 +41,4 @@ jobs:
           # By default it looks for "coverage.xml" at repo root; no need to set path if you keep the default.
 
       - name: Fail if below threshold
-        run: coverage report --fail-under=90
+        run: coverage report --fail-under=``
